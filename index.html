@@ -6,7 +6,7 @@
   <title>Document</title>
   <style>
     body {
-      background: linear-gradient(135deg, #0035bd, #1a1a80);
+      background: linear-gradient(135deg, #15161a, #0c2b3d);
       margin: 0;
       display: flex;
       justify-content: center;
@@ -18,10 +18,12 @@
     #clk {
   background: rgba(49, 76, 126, 0.4); 
   padding: 20px 40px;
-  border-radius: 30px;
+  
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
   text-align: center;
   position: relative;
+  box-shadow: 0 0 5px #03e9f4,0 0 25px #03e9f4,0 0 40px #03e9f4,0 0 60px #03e9f4;
+       -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
 }
     
     
@@ -42,10 +44,13 @@
     }
 
     .days{
-        border-radius: 30px;
+        
         background: rgba(49, 76, 126, 0.4);
         margin-right: 3%;
         width: 400px;
+        color: rgb(11, 239, 247);
+        box-shadow: 0 0 5px #03e9f4,0 0 25px #05959c,0 0 40px #03e9f4,0 0 60px #03e9f4;
+       -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
 
     }
     </style>
@@ -58,7 +63,7 @@
     <span id="min">00</span>
     <span>:</span>
     <span id="sec">00</span>
-    <span>/</span>
+    
     <span id="ampm"></span>
     
     </div>
